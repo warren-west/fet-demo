@@ -14,7 +14,7 @@ A place where all of our class demos can be found
   - `<img>`
   - `<a>`
 - HTML Comments
-  - <!-- Comment -->
+  - `<!-- Comment -->`
 - Retrieving HTML Elements in JavaScript
   - getElementById()
 
