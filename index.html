@@ -7,38 +7,42 @@
     <title>Home</title>
 </head>
 
-<body>
+<body style="background-color: #B2ECE1;">
     <!-- Navigation -->
-    <a href="lists.html">Go to lists...</a>
+    <a href="lists.html" style="text-decoration: none;">Go to lists...</a>
+    <a href="table.html">Go to table page...</a>
 
     <!-- Content Elements -->
-     
-    <h1 title="Popup">Biggest header</h1>
-    <h2>Bigger</h2>
-    <h3>Bigger</h3>
-    <h4>Bigger</h4>
-    <h5>Big header</h5>
-    <h6>Smallest header</h6>
+    <h1 title="Popup" style="font-size: 60px; font-weight: 100; font-family: Arial, Helvetica, sans-serif;">Biggest
+        header</h1>
 
-    <p>Here is <i>some</i> paragraph <b>text</b>.</p>
-    <pre>Here is more              paragraph text.</pre>
 
-    <p>block</p>
-    <i>italics</i>
-    <b>bold</b>
+    <button id="btn-hide-container" onclick="hideContainer()">Hide Container</button>
+    <div id="container" style="background-color: rgb(197, 138, 197); color: darkblue; border: 2px solid black;">
+        <h2 style="font: 42px monospace;">Bigger</h2>
+        <h3>Bigger</h3>
+        <h4>Bigger</h4>
+        <h5>Big header</h5>
+        <h6>Smallest header</h6>
+
+        <p>Here is <i>some</i> paragraph <b>text</b>.</p>
+        <pre>Here is more              paragraph text.</pre>
+
+        <p>block</p>
+        <i>italics</i>
+        <b>bold</b>
+    </div>
 
     <!-- kebab-casing -->
     <button id="btn-show-hide" onclick="toggle2()">Hide!</button>
     <br><br>
-    <img id="img-cat" width="250"
+    <img id="img-cat" width="250" style="border-width: 2px; border-color: blueviolet; border-style: groove;"
         src="http://upload.wikimedia.org/wikipedia/commons/6/68/Orange_tabby_cat_sitting_on_fallen_leaves-Hisashi-01A.jpg"
         alt="">
 
     <!-- Form Elements -->
 
     <!-- Multimedia Elements -->
-
-    <!-- HTML Tables -->
 
     <script src="index.js"></script>
 </body>
